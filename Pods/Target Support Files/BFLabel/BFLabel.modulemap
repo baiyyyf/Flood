@@ -1,0 +1,6 @@
+framework module BFLabel {
+  umbrella header "BFLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

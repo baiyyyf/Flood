@@ -1,0 +1,28 @@
+{
+  "name": "BFLabel",
+  "version": "0.1.0",
+  "summary": "A rich text label.",
+  "description": "A rich text label. Emoticon enable",
+  "homepage": "https://github.com/baiyyyf/BFLabel",
+  "license": "MIT",
+  "authors": {
+    "baiyyyf": "byunfi@outlook.com"
+  },
+  "social_media_url": "http://twitter.com/baiyyyf",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/baiyyyf/BFLabel.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "Source/*.swift",
+    "Source/BFLabel.h"
+  ],
+  "public_header_files": [
+    "Source/BFLabel.h"
+  ],
+  "requires_arc": true,
+  "frameworks": "UIKit"
+}

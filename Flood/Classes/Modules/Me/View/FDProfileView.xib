@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FDProfileView" customModule="Flood" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="80f53663gw1f1hjma7ylyj20pk08c3zy" translatesAutoresizingMaskIntoConstraints="NO" id="yXu-He-NsD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
+                </imageView>
+                <view userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vql-Jw-KXx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="qiq-v4-myp">
+                    <rect key="frame" x="12" y="30" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="2qP-i3-AKw"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="2ye-7F-KMg"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="CLQ-aH-Ap9"/>
+                        <constraint firstAttribute="height" constant="60" id="E7f-bv-7v6"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="60" id="Egm-yK-vFN"/>
+                        <constraint firstAttribute="width" constant="60" id="bRH-qy-O2y"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l9y-ih-soP">
+                    <rect key="frame" x="0.0" y="90" width="375" height="70"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAD-ik-BU3">
+                            <rect key="frame" x="250" y="0.0" width="125" height="70"/>
+                            <attributedString key="attributedText">
+                                <fragment content="6960">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" 微博">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Za0-jB-fT8">
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="70"/>
+                            <attributedString key="attributedText">
+                                <fragment content="384 ">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="关注">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3M-q7-Dd4">
+                            <rect key="frame" x="133" y="0.0" width="125" height="70"/>
+                            <attributedString key="attributedText">
+                                <fragment content="259554 ">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="粉丝">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="eAD-ik-BU3" firstAttribute="leading" secondItem="m3M-q7-Dd4" secondAttribute="trailing" constant="-8" id="44L-Sj-Nps"/>
+                        <constraint firstItem="m3M-q7-Dd4" firstAttribute="leading" secondItem="Za0-jB-fT8" secondAttribute="trailing" constant="8" id="HNF-VA-irx"/>
+                        <constraint firstAttribute="bottom" secondItem="eAD-ik-BU3" secondAttribute="bottom" id="Mty-7Q-YPX"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="NYS-Za-a0r"/>
+                        <constraint firstAttribute="bottom" secondItem="m3M-q7-Dd4" secondAttribute="bottom" id="WyR-oY-iAz"/>
+                        <constraint firstItem="eAD-ik-BU3" firstAttribute="height" secondItem="Za0-jB-fT8" secondAttribute="height" id="aoQ-1S-Y3Y"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="bKg-2i-gT0"/>
+                        <constraint firstItem="m3M-q7-Dd4" firstAttribute="height" secondItem="Za0-jB-fT8" secondAttribute="height" id="ca3-FH-mcb"/>
+                        <constraint firstItem="Za0-jB-fT8" firstAttribute="leading" secondItem="l9y-ih-soP" secondAttribute="leading" id="jWz-TF-YUh"/>
+                        <constraint firstItem="Za0-jB-fT8" firstAttribute="height" secondItem="l9y-ih-soP" secondAttribute="height" id="pAm-zq-Qwb"/>
+                        <constraint firstAttribute="height" constant="70" id="pqs-Vf-329"/>
+                        <constraint firstItem="eAD-ik-BU3" firstAttribute="width" secondItem="Za0-jB-fT8" secondAttribute="width" id="uWb-Ib-NtJ"/>
+                        <constraint firstItem="m3M-q7-Dd4" firstAttribute="width" secondItem="Za0-jB-fT8" secondAttribute="width" id="x0I-I2-bRo"/>
+                        <constraint firstAttribute="bottom" secondItem="Za0-jB-fT8" secondAttribute="bottom" id="xCY-HQ-QXW"/>
+                        <constraint firstItem="Za0-jB-fT8" firstAttribute="width" secondItem="l9y-ih-soP" secondAttribute="width" multiplier="1/3" id="z3S-zS-2hK"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="异视异色（北京）文化传播有限公司" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6D-es-mPc">
+                    <rect key="frame" x="88" y="69" width="192" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VICE中国" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teY-Vd-DxK">
+                    <rect key="frame" x="88" y="33" width="84" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yXu-He-NsD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1qv-cc-YNV"/>
+                <constraint firstItem="qiq-v4-myp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="7kD-fQ-PeS"/>
+                <constraint firstItem="yXu-He-NsD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Cpn-Ch-1RL"/>
+                <constraint firstItem="vql-Jw-KXx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Eup-5x-hgt"/>
+                <constraint firstAttribute="bottom" secondItem="l9y-ih-soP" secondAttribute="bottom" id="Jig-Kz-cKB"/>
+                <constraint firstAttribute="bottom" secondItem="vql-Jw-KXx" secondAttribute="bottom" id="KQf-I0-47f"/>
+                <constraint firstItem="b6D-es-mPc" firstAttribute="bottom" secondItem="qiq-v4-myp" secondAttribute="bottom" constant="-6" id="NMo-cv-Tqh"/>
+                <constraint firstAttribute="trailing" secondItem="yXu-He-NsD" secondAttribute="trailing" id="OKG-qY-RRf"/>
+                <constraint firstItem="l9y-ih-soP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TsD-bD-X4G"/>
+                <constraint firstItem="qiq-v4-myp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="WSY-4Y-Has"/>
+                <constraint firstAttribute="trailing" secondItem="l9y-ih-soP" secondAttribute="trailing" id="XIa-Oc-kvw"/>
+                <constraint firstItem="vql-Jw-KXx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="apt-Lv-qGL"/>
+                <constraint firstItem="teY-Vd-DxK" firstAttribute="top" secondItem="qiq-v4-myp" secondAttribute="top" constant="3" id="ck4-NE-MSI"/>
+                <constraint firstItem="teY-Vd-DxK" firstAttribute="leading" secondItem="qiq-v4-myp" secondAttribute="trailing" constant="16" id="dKl-nu-0zj"/>
+                <constraint firstItem="b6D-es-mPc" firstAttribute="leading" secondItem="qiq-v4-myp" secondAttribute="trailing" constant="16" id="iJv-Of-KEA"/>
+                <constraint firstAttribute="bottom" secondItem="yXu-He-NsD" secondAttribute="bottom" id="moi-x8-osO"/>
+                <constraint firstAttribute="trailing" secondItem="vql-Jw-KXx" secondAttribute="trailing" id="noi-Ig-Cij"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="AiphaView" destination="vql-Jw-KXx" id="VTu-uV-ogI"/>
+                <outlet property="avatarImageView" destination="qiq-v4-myp" id="OBm-sc-19X"/>
+                <outlet property="backgroundImageView" destination="yXu-He-NsD" id="uPR-6w-nm5"/>
+                <outlet property="followersLabel" destination="m3M-q7-Dd4" id="xg1-Ql-chf"/>
+                <outlet property="followsLabel" destination="Za0-jB-fT8" id="2rb-ya-jAO"/>
+                <outlet property="labelContainer" destination="l9y-ih-soP" id="f9b-We-9Az"/>
+                <outlet property="tweetsLabel" destination="eAD-ik-BU3" id="eAJ-Ym-vM4"/>
+                <outlet property="userDescriptionLabel" destination="b6D-es-mPc" id="lyP-hc-DGV"/>
+                <outlet property="userNameLabel" destination="teY-Vd-DxK" id="B4F-oC-G6P"/>
+            </connections>
+            <point key="canvasLocation" x="-10.5" y="216"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="180" height="180"/>
+        <image name="80f53663gw1f1hjma7ylyj20pk08c3zy" width="920" height="300"/>
+    </resources>
+</document>
